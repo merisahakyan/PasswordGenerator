@@ -8,7 +8,7 @@ namespace Experiment
         static void Main(string[] args)
         {
             /* 
-             for  "1234567890" - 0
+             for  "1234567890" - 0 
              for  "abcdefghijklmnopqrstuvwxyz" - 1
              for  "ABCDEFGHIJKLMNOPQRSTUVWXYZ" - 2
              for  "?!/-_.$#@&^()+*=~" - 3
