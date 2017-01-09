@@ -1,6 +1,7 @@
 #Password Generator
 
 Using PwGen;
+
 namespace Experiment
 {
     class Program
