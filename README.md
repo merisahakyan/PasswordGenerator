@@ -1,4 +1,5 @@
 #Password Generator
+#Example
 
 Using PwGen;
 
