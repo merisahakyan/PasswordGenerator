@@ -1,19 +1,14 @@
 #Password Generator
 ###Example
 
+```cs
 using System;
-
 Using PwGen;
-
 namespace Experiment
-
 {
-   
-   class Program
-   
-    {
-    
-    
+     class Program
+       {
+     
         static void Main(string[] args)
         {
             /* 
@@ -29,3 +24,4 @@ namespace Experiment
         }
     }
 }
+```
