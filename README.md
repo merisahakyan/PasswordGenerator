@@ -1,6 +1,8 @@
 #Password Generator
 #Example
 
+using System;
+
 Using PwGen;
 
 namespace Experiment
