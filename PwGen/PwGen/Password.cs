@@ -41,8 +41,11 @@ namespace PwGen
 
         public char[] NewPassword()
         {
-
-            var rnd = new Random();
+            byte[] data = new byte[pin.Length];
+            var rng = new RNGCryptoServiceProvider();
+            rng.GetBytes(data);
+            var seed = BitConverter.ToInt32(data, 0);
+            var rnd = new Random(seed);
             for (int i = 0; i < pin.Length; i++)
             {
                 pin[i] = (char)alphabet[rnd.Next(0, alphabet.Length-1)];
