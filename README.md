@@ -3,7 +3,7 @@
 
 ```cs
 using System;
-Using PwGen;
+using PwGen;
 namespace Experiment
 {
      class Program
