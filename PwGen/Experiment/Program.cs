@@ -20,6 +20,7 @@ namespace Experiment
             Console.WriteLine(pword.NewPassword());
 
             Console.WriteLine(Password.HexPasswordGen());
+            Console.WriteLine(Password.PinCodeGen());
         }
     }
 }
