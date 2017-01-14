@@ -16,9 +16,10 @@ namespace Experiment
             //for  "ABCDEFGHIJKLMNOPQRSTUVWXYZ" - 2
             //for  "?!/-_.$#@&^()+*=`~" - 3
             //first digit in ctor is password's length
-            Password pword = new Password(8,1,3,3,0);
-            var password = pword.NewPassword();
-            Console.WriteLine(pword.ToString(password));
+            Password pword = new Password(8, 1, 3, 3, 0);
+            Console.WriteLine(pword.NewPassword());
+
+            Console.WriteLine(Password.HexPasswordGen());
         }
     }
 }
