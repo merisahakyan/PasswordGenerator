@@ -8,6 +8,14 @@ using System.Security.Cryptography;
 
 namespace PwGen
 {
+    public enum Library
+    {
+        numbers,
+        lowercase,
+        uppercase,
+        symbols
+    }
+
     public class Password
     {
         const string numbers = "1234567890";
